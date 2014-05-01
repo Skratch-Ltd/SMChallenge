@@ -1,2 +1,10 @@
 <!doctype html>
-This is the home page!
+<h1>100 Day Scripture Mastery Challange</h1>
+<p id="smScripture">Here is the scripture</p>
+<button id="smNewButton">New Scripture</button>
+<script>
+    function newScripture() {
+        smScripture.innerHTML = 'Here is a different scripture';
+    }
+    smNewButton.onclick = newScripture;
+</script>
